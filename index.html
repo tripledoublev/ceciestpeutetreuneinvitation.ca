@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceci est peut-être une invitation</title>
+    <style>
+        @font-face {
+            font-family: 'Comic Sans MS';
+            src: url('assets/Comic Sans MS.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            background-color: #CE99FF;
+            font-family: "Comic Sans MS", sans-serif;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 4rem;
+        }
+        h2 {
+            font-size: 3rem;
+        }
+        p {
+            max-width: 50vw;
+            font-size:2rem;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            margin: auto;
+            width: 80%;
+            background-color: #8080FF;
+            border: 3px solid #FFFFFF;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .contact-links {
+            margin: 20px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+        }
+        .contact-links img {
+            width: 50px;
+            height: 50px;
+            padding: 20px;
+            background-color: black;
+            border-radius: 50%;
+            border: none;
+        }
+        .contact-links img:hover {
+            transform: scale(1.1);
+            outline: 3px solid white;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        footer {
+            margin: 20px;
+        }
+        footer div p {
+            max-width: 80vw;
+        }
+        .footer-link {
+            color: #FFD700;
+            font-weight: bold;
+            text-decoration: none;
+            transition: text-shadow 0.3s ease;
+        }
+        .footer-link:hover {
+            text-shadow: 0 0 5px #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ceci est peut-être une invitation</h1>  
+    <div class="container">
+        <h2>Bonjour,</h2>
+        <p>
+            Ceci est une potentielle invitation pour célébrer un événement spécial : mon anniversaire.<br>
+            Mais... es-tu sûr(e) d'être invité(e) ?
+        </p>
+        <p>
+            Pour en savoir plus, contacte-moi directement afin de confirmer si tu fais partie des personnes invitées.
+        </p>
+        <div class="contact-links">
+            <a href="https://signal.me/#eu/aF_36SFe25JOLZHAueCkPGtwkTyaT1RN5jV8EuXC9PJ-ZMOca71KyLJSSwB5AG1M" target="_blank" title="Me contacter sur Signal">
+                <img src="assets/signal.png" alt="Signal Logo">
+            </a>
+            <a href="https://instagram.com/ffforests" target="_blank" title="Mon Instagram">
+                <img src="assets/ig.png" alt="Instagram Logo">
+            </a>
+        </div>
+        <p>
+            Bonne chance... et peut-être à bientôt !
+        </p>
+    </div>
+
+    <footer>
+        <div>
+            <p>
+                <i>
+                    Ce site n'est peut-être pas une invitation.
+                </i>
+            </p>
+            <p>
+            <a class="footer-link" href="https://web.archive.org/web/20091026233859/http://cf.geocities.com/lejournaldannie/anniversaire/accueil.html" target="_blank">
+                Voir le site original
+            </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
