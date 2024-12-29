@@ -20,9 +20,6 @@
             padding: 0;
         }
         h1 {
-            font-size: 4rem;
-        }
-        h2 {
             font-size: 3rem;
         }
         p {
@@ -37,18 +34,23 @@
         a:hover {
             text-decoration: underline;
         }
-        .gif {
-            margin-top: 4rem;
-        }
+
+        .gif,
         .container {
             margin: auto;
             width: 80%;
             background-color: #8080FF;
             border: 3px solid #FFFFFF;
-            padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             margin-top: 4rem;
             max-width: 706px;
+        }
+        .gif {
+            border-style: solid;
+            border-color: #0000FF;
+        }
+        .container {
+            padding: 20px;
         }
         .contact-links {
             margin: 20px 0;
@@ -96,6 +98,10 @@
           }
           footer div p {
             max-width: 90vw;
+          }
+          .gif, .container {
+            margin-top: 1rem;
+
           }
         }
     </style>
